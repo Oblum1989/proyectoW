@@ -1,0 +1,27 @@
+html {
+    font-size: 15px;
+}
+body {
+    font-family: 'KoHo', sans-serif;
+}
+.principal {
+    background: url("../img/unsplash.jpg") no-repeat center top;
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto-central {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.texto-central img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 150px;
+    border:5px solid #fff;
+}
